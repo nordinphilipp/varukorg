@@ -1,0 +1,106 @@
+#kundkorg 
+{
+	font-family: arial;
+	display: flex;
+	margin: 0 auto;
+	max-width: 3000px;
+}
+
+#produkter, #varukorgProdukter 
+{
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+#produkter 
+{ 
+	width: 80%;
+}
+
+#varukorgProdukter 
+{
+	width: 30%;
+}
+
+input.kundkorg, button.kundborg 
+{
+	padding: 11px;
+	border: 0;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#produkter 
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+}
+.bItem 
+{
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+}
+.bImg 
+{
+	max-width: 100px;
+}
+.bNamn, .b-pris 
+{
+	font-weight: 700;
+}
+.bNamn, .b-pris
+{ 
+	margin: 7px 0;
+}
+.bNamn 
+{ 
+	text-transform: uppercase;
+}
+.b-pris 
+{
+	font-size: 1.3em;
+}
+input.b-add 
+{ 
+	width: 70%; 
+}
+
+#varukorgProdukter 
+{
+	background: #31394d;
+	color: #fff;
+	border-radius: 5px;
+}
+.cItem 
+{
+	padding: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cItem > * 
+{
+	box-sizing: border-box;
+}
+.cNamn, .cTotal, input.cEmpty, input.tillKassan 
+{
+	width: 100%; 
+}
+.cTotal, input.cEmpty, input.tillKassan 
+{
+	margin-top: 10px; 
+}
+.cDel {
+	width: 10%; 
+}
+.c-qty 
+{
+	width: 90%;
+}
+.cTotal 
+{
+	font-weight: 700;
+	font-size: 1.2em;
+}
