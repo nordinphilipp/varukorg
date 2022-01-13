@@ -61,8 +61,8 @@ var kundkorg = {
       bit.className = "b-pris";
       item.appendChild(bit);
 
-	  // Knapp för att lägga till i kundkorg
-	  // Vid klick på knapp anropas funktionen add
+	// Knapp för att lägga till i kundkorg
+	// Vid klick på knapp anropas add
       bit = document.createElement("input");
       bit.type = "button";
       bit.value = "Lägg till i kundkorg";
@@ -78,7 +78,7 @@ var kundkorg = {
     kundkorg.list(); // Visa listan
   },
 
-  //Funktion för att visa lista
+  //Visa lista
   list : () => 
   {
     kundkorg.hVarukorgProdukter.innerHTML = "";
